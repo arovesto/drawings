@@ -1,2 +1,2 @@
 # drawings
-Stupid python sdl2 (required) drawings staff
+Stupid python PySDL2 wire drawings staff
