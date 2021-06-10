@@ -63,7 +63,7 @@ MovedPoints.append(Points[0])
 MiddlePoints = [new_point(Points[i], MovedPoints[i]) for i in range(len(Points))]
 if withMedium: Points += MiddlePoints
 
-start()
+start_with_time()  # start() for instant drawing
 for p in Points: dotP(p, big_dot_size)
 for _ in range(number_of_dots):
     if _ not in range(ignore_first): dotP(start_point, dot_size)
